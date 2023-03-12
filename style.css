@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+hr {
+    margin: 0;
+}
+.dropdown {
+    margin-bottom: 10px;
+}
+.dropbtn {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+.dropdown-content {
+    display: none;
+    padding: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown2 .dropdown-content2 {
+    display: none;
+}
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
